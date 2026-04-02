@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Nazer Industries</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav>
+        <a href="index.html" class="logo">NAZER<span>INDUSTRIES</span></a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="capabilities.html">Capabilities</a></li>
+          <li><a href="quality.html">Quality</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <div class="mobile-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header" style="background-image: url('images/mfg-1.png'); height: 300px; display: flex; align-items: center; position: relative; background-size: cover; background-position: center;">
+    <div class="container" style="position: relative; z-index: 1;">
+      <h1>Contact Us</h1>
+      <span class="tagline">Let's Discuss Your Project</span>
+    </div>
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(18, 20, 23, 0.8);"></div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <div class="container">
+      <div class="grid-2">
+        <div class="reveal-left">
+          <span class="tagline">Get in Touch</span>
+          <h2>Inquiry Form</h2>
+          <p style="margin-bottom: 30px; color: var(--text-muted);">Fill out the form below and our technical team will get back to you with a quote or consultation.</p>
+          
+          <form id="contactForm" class="card" style="padding: 40px;">
+            <div style="margin-bottom: 20px;">
+              <label style="display: block; margin-bottom: 8px; font-size: 0.9rem;">Full Name *</label>
+              <input type="text" required style="width: 100%; padding: 12px; background-color: var(--bg-charcoal); border: 1px solid var(--border-color); color: #fff; border-radius: 5px;">
+            </div>
+            <div style="margin-bottom: 20px;">
+              <label style="display: block; margin-bottom: 8px; font-size: 0.9rem;">Email Address *</label>
+              <input type="email" required style="width: 100%; padding: 12px; background-color: var(--bg-charcoal); border: 1px solid var(--border-color); color: #fff; border-radius: 5px;">
+            </div>
+            <div style="margin-bottom: 20px;">
+              <label style="display: block; margin-bottom: 8px; font-size: 0.9rem;">Company Name</label>
+              <input type="text" style="width: 100%; padding: 12px; background-color: var(--bg-charcoal); border: 1px solid var(--border-color); color: #fff; border-radius: 5px;">
+            </div>
+            <div style="margin-bottom: 20px;">
+              <label style="display: block; margin-bottom: 8px; font-size: 0.9rem;">Message *</label>
+              <textarea required rows="5" style="width: 100%; padding: 12px; background-color: var(--bg-charcoal); border: 1px solid var(--border-color); color: #fff; border-radius: 5px; resize: none;"></textarea>
+            </div>
+            <button type="submit" class="btn btn-accent" style="width: 100%;">Send Message</button>
+          </form>
+        </div>
+        
+        <div class="reveal-right" style="padding-left: 40px;">
+          <span class="tagline">Our Offices</span>
+          <h2>Head Office</h2>
+          <div class="card" style="margin-bottom: 30px;">
+            <h4 style="color: var(--accent-gold); margin-bottom: 10px;">Pakistan</h4>
+            <p>Nazer Industries (Pvt) Ltd.</p>
+            <p style="color: var(--text-muted);">L-31, Block 22, Federal B Area, Karachi - 75950, Pakistan.</p>
+            <p style="margin-top: 15px;"><strong>Tel:</strong> +92-21-36362121</p>
+            <p><strong>Email:</strong> <a href="mailto:info@nazergroup.pk" style="color: var(--accent-gold);">info@nazergroup.pk</a></p>
+          </div>
+          
+          <h2>International Presence</h2>
+          <div class="grid-2" style="gap: 20px;">
+            <div class="card" style="padding: 20px;">
+              <h4 style="color: var(--accent-gold); margin-bottom: 10px;">Dubai</h4>
+              <p style="font-size: 0.9rem;">NazerOne Heavy Industries</p>
+              <p style="font-size: 0.8rem; color: var(--text-muted);"><a href="mailto:info@nazerone.com">info@nazerone.com</a></p>
+            </div>
+            <div class="card" style="padding: 20px;">
+              <h4 style="color: var(--accent-gold); margin-bottom: 10px;">Singapore</h4>
+              <p style="font-size: 0.9rem;">Mairaj Trading</p>
+              <p style="font-size: 0.8rem; color: var(--text-muted);"><a href="mailto:mairaj.trading@gmail.com">mairaj.trading@gmail.com</a></p>
+            </div>
+          </div>
+          
+          <div style="margin-top: 40px;">
+            <img src="images/product-custom.png" alt="Nazer Industries" class="card" style="padding: 0; border-radius: 9px;" referrerPolicy="no-referrer">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="logo" style="margin-bottom: 20px; display: block;">NAZER<span>INDUSTRIES</span></a>
+          <p>Pakistan's most respected manufacturer and supplier of brass fittings and connectors since 1962. Engineering excellence, brass solutions.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Product Range</a></li>
+            <li><a href="capabilities.html">Capabilities</a></li>
+            <li><a href="quality.html">Quality Control</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="products.html">Tank Connectors</a></li>
+            <li><a href="products.html">Couplings</a></li>
+            <li><a href="products.html">Flare Nuts</a></li>
+            <li><a href="products.html">Custom Inserts</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <p>L-31, Block 22, Federal B Area, Karachi - 75950, Pakistan.</p>
+          <p>Tel: +92-21-36362121</p>
+          <p>Email: info@nazergroup.pk</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Nazer Industries (Pvt) Ltd. All Rights Reserved. | precision in every connection</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

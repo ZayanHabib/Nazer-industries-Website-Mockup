@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Range | Nazer Industries</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav>
+        <a href="index.html" class="logo">NAZER<span>INDUSTRIES</span></a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html" class="active">Products</a></li>
+          <li><a href="capabilities.html">Capabilities</a></li>
+          <li><a href="quality.html">Quality</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="mobile-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header" style="background-image: url('images/hero.png'); height: 300px; display: flex; align-items: center; position: relative; background-size: cover; background-position: center;">
+    <div class="container" style="position: relative; z-index: 1;">
+      <h1>Brass Fittings & Connectors</h1>
+      <span class="tagline">Engineering Excellence, Brass Solutions</span>
+    </div>
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(18, 20, 23, 0.85);"></div>
+  </section>
+
+  <!-- Product Grid -->
+  <section class="product-grid">
+    <div class="container">
+      <div class="section-header reveal-fade">
+        <span class="tagline">Our Catalog</span>
+        <h2>Precision Engineered Range</h2>
+        <p style="max-width: 800px; margin: 20px auto 0; color: var(--text-muted);">Our products are the ideal solution for virtually all domestic and commercial applications. Sizes from 2mm to 60mm with male and female adapters for a wide range of installation requirements.</p>
+      </div>
+
+      <!-- Tabs Navigation -->
+      <div class="tabs-container reveal-fade">
+        <button class="tab-btn active" data-category="all">All Products</button>
+        <button class="tab-btn" data-category="tank-connectors">Tank Connectors</button>
+        <button class="tab-btn" data-category="couplings">Couplings</button>
+        <button class="tab-btn" data-category="flare-nuts">Flare Nuts</button>
+        <button class="tab-btn" data-category="custom">Custom & Others</button>
+      </div>
+      
+      <div class="grid-3">
+        <!-- Product 1 -->
+        <div class="card product-card reveal" data-category="tank-connectors">
+          <div class="product-img">
+            <img src="images/product-connector.png" alt="Flanged Tank Connector" referrerPolicy="no-referrer">
+          </div>
+          <div class="product-info">
+            <h3>Flanged Tank Connector</h3>
+            <p>High-precision connector for tank installations, ensuring a leak-proof seal.</p>
+            <a href="product-detail.html" class="btn btn-accent" style="width: 100%; text-align: center;">Request Quote</a>
+          </div>
+        </div>
+        
+        <!-- Product 2 -->
+        <div class="card product-card reveal" data-category="flare-nuts" style="transition-delay: 0.1s;">
+          <div class="product-img">
+            <img src="images/product-cap-nut.png" alt="Brass Flare Nut" referrerPolicy="no-referrer">
+          </div>
+          <div class="product-info">
+            <h3>Brass Flare Nut</h3>
+            <p>Designed for air conditioning and refrigeration systems with high-pressure requirements.</p>
+            <a href="product-detail.html" class="btn btn-accent" style="width: 100%; text-align: center;">Request Quote</a>
+          </div>
+        </div>
+        
+        <!-- Product 3 -->
+        <div class="card product-card reveal" data-category="couplings" style="transition-delay: 0.2s;">
+          <div class="product-img">
+            <img src="images/product-coupling.png" alt="Straight Coupling" referrerPolicy="no-referrer">
+          </div>
+          <div class="product-info">
+            <h3>Straight Coupling</h3>
+            <p>Copper x copper or male/female couplings for seamless pipe connections.</p>
+            <a href="product-detail.html" class="btn btn-accent" style="width: 100%; text-align: center;">Request Quote</a>
+          </div>
+        </div>
+        
+        <!-- Product 4 -->
+        <div class="card product-card reveal" data-category="custom">
+          <div class="product-img">
+            <img src="images/product-insert.png" alt="Brass Threaded Insert" referrerPolicy="no-referrer">
+          </div>
+          <div class="product-info">
+            <h3>Brass Threaded Insert</h3>
+            <p>Custom threaded inserts for various industrial and commercial applications.</p>
+            <a href="product-detail.html" class="btn btn-accent" style="width: 100%; text-align: center;">Request Quote</a>
+          </div>
+        </div>
+        
+        <!-- Product 5 -->
+        <div class="card product-card reveal" data-category="couplings" style="transition-delay: 0.1s;">
+          <div class="product-img">
+            <img src="images/product-coupling.png" alt="Repair Coupling" referrerPolicy="no-referrer">
+          </div>
+          <div class="product-info">
+            <h3>Repair Coupling</h3>
+            <p>100mm long slip couplings for efficient repair of damaged pipe sections.</p>
+            <a href="product-detail.html" class="btn btn-accent" style="width: 100%; text-align: center;">Request Quote</a>
+          </div>
+        </div>
+        
+        <!-- Product 6 -->
+        <div class="card product-card reveal" data-category="custom" style="transition-delay: 0.2s;">
+          <div class="product-img">
+            <img src="images/product-valve.png" alt="Brass Valve Relief" referrerPolicy="no-referrer">
+          </div>
+          <div class="product-info">
+            <h3>Brass Valve Relief</h3>
+            <p>Precision-machined valve relief components for pressure control systems.</p>
+            <a href="product-detail.html" class="btn btn-accent" style="width: 100%; text-align: center;">Request Quote</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" style="background-color: var(--bg-gray);">
+    <div class="container">
+      <div class="grid-2">
+        <div class="reveal-left">
+          <span class="tagline">Why Choose Nazer</span>
+          <h2>Unmatched Quality Standards</h2>
+          <ul style="margin-top: 30px;">
+            <li style="margin-bottom: 20px; display: flex; align-items: flex-start;">
+              <span style="color: var(--accent-gold); margin-right: 15px; font-weight: bold;">01.</span>
+              <div>
+                <h4 style="margin-bottom: 5px;">Wide Range of Sizes</h4>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">From 2mm to 60mm with male and female adapters for every installation requirement.</p>
+              </div>
+            </li>
+            <li style="margin-bottom: 20px; display: flex; align-items: flex-start;">
+              <span style="color: var(--accent-gold); margin-right: 15px; font-weight: bold;">02.</span>
+              <div>
+                <h4 style="margin-bottom: 5px;">Premium Finishes</h4>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">Available in brass plate finish or chromium plate for superior aesthetics and corrosion resistance.</p>
+              </div>
+            </li>
+            <li style="margin-bottom: 20px; display: flex; align-items: flex-start;">
+              <span style="color: var(--accent-gold); margin-right: 15px; font-weight: bold;">03.</span>
+              <div>
+                <h4 style="margin-bottom: 5px;">Tested Reliability</h4>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">Every fitting is designed, manufactured, and tested to meet each customer's requirements precisely.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="reveal-right">
+          <img src="images/mfg-2.png" alt="Manufacturing Process" class="card" style="padding: 0; border-radius: 9px;" referrerPolicy="no-referrer">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="logo" style="margin-bottom: 20px; display: block;">NAZER<span>INDUSTRIES</span></a>
+          <p>Pakistan's most respected manufacturer and supplier of brass fittings and connectors since 1962. Engineering excellence, brass solutions.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Product Range</a></li>
+            <li><a href="capabilities.html">Capabilities</a></li>
+            <li><a href="quality.html">Quality Control</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="products.html">Tank Connectors</a></li>
+            <li><a href="products.html">Couplings</a></li>
+            <li><a href="products.html">Flare Nuts</a></li>
+            <li><a href="products.html">Custom Inserts</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <p>L-31, Block 22, Federal B Area, Karachi - 75950, Pakistan.</p>
+          <p>Tel: +92-21-36362121</p>
+          <p>Email: info@nazergroup.pk</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Nazer Industries (Pvt) Ltd. All Rights Reserved. | precision in every connection</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
